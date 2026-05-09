@@ -1,72 +1,113 @@
-Retail Customer Shopping Behavior Analysis
+Retail Customer Shopping Analysis
 
-#Description
-This project is a data analytics and business intelligence solution built to analyze retail customer shopping behavior and generate actionable insights. It uses Python for exploratory data analysis (EDA), SQL for querying data, and Power BI for interactive dashboard visualization of customer purchasing patterns.
+Python · SQL · Power BI · DAX
 
-#Objectives
-Analyze customer shopping data to identify trends and patterns
-Understand purchasing behavior and customer preferences
-Perform data cleaning and preprocessing
-Create dashboards for business insights and decision-making
+A retail analytics project examining 3,900 customer transactions across 18 variables to uncover purchasing patterns, top-performing regions, and revenue-driving product categories.
 
-#Tech Stack
-Python
-Pandas, NumPy, Matplotlib, Seaborn
-SQL
-Power BI
-Jupyter Notebook
 
-#Project Structure
+Project Overview
+
+This project performs end-to-end customer behavior analysis on a retail shopping dataset — from data cleaning and EDA in Python to SQL-based segmentation queries to a Power BI dashboard — providing actionable insights for inventory planning, regional marketing, and customer targeting.
+
+
+Key Insights Uncovered
+
+- Average purchase amount: $59.77 per transaction across all customers
+- Montana is the highest-performing state by total sales value
+- Clothing is the #1 revenue category — over 1,700 items purchased
+- Subscription customers show higher average order values than non-subscribers
+- Male customers account for slightly higher transaction frequency than female customers
+
+
+Project Structure
+
 Retail_Customer_Shopping_Analysis/
-│── customer_shopping_behavior.csv
-│── Customer_Shopping_Behavior_Analysis.ipynb
-│── customer_behavior_sql_queries.sql
-│── customer_behavior_dashboard.pbix
-│── LICENSE
+│── customer_shopping_behavior.csv          ← Raw dataset (3,900 records)
+│── Customer_Shopping_Behavior_Analysis.ipynb  ← Full EDA + visualizations
+│── customer_behavior_sql_queries.sql       ← SQL KPI queries
+│── customer_behavior_dashboard.pbix        ← Power BI dashboard
 │── README.md
 
-#Installation
-Clone the repository
+
+Dataset Overview
+
+Field - Description
+
+Customer ID - Unique identifier 
+Age - Customer age 
+Gender - Male / Female 
+Item Purchased - Product name 
+Category - Clothing, Footwear, Accessories, Outerwear 
+Purchase Amount (USD) - Transaction value 
+Location - US State 
+Season - Spring / Summer / Fall / Winter 
+Subscription Status - Yes / No 
+Payment Method - Card type used 
+Shipping Type - Standard, Express, etc.
+and 7 more
+
+
+Sample SQL Queries Used
+
+sql
+-- Average purchase amount by category
+SELECT
+    category,
+    ROUND(AVG(purchase_amount_usd), 2) AS avg_purchase,
+    COUNT(*) AS total_transactions
+FROM retail_customers
+GROUP BY category
+ORDER BY avg_purchase DESC;
+
+-- Top 5 states by total revenue
+SELECT
+    location,
+    SUM(purchase_amount_usd) AS total_revenue,
+    COUNT(*) AS transactions
+FROM retail_customers
+GROUP BY location
+ORDER BY total_revenue DESC
+LIMIT 5;
+
+-- Subscription vs non-subscription spend comparison
+SELECT
+    subscription_status,
+    ROUND(AVG(purchase_amount_usd), 2) AS avg_spend,
+    COUNT(*) AS customer_count
+FROM retail_customers
+GROUP BY subscription_status;
+
+
+Tech Stack
+
+Tool - Purpose 
+
+Python (Pandas, NumPy) - Data cleaning & preprocessing , (Matplotlib, Seaborn) - EDA visualizations 
+SQL - Customer segmentation queries 
+Power BI + DAX - Interactive dashboards 
+Jupyter Notebook - Analysis environment 
+
+
+How to Run
+
+bash
+# 1. Clone the repo
 git clone https://github.com/BeHarsha/Retail_Customer_Shopping_Analysis
-cd retail-customer-shopping-analysis
-Install dependencies
-pip install pandas numpy matplotlib seaborn
-Open Jupyter Notebook
-jupyter notebook
+cd Retail_Customer_Shopping_Analysis
 
-#Usage
-Open and run Customer_Shopping_Behavior_Analysis.ipynb for analysis
-Execute SQL queries from customer_behavior_sql_queries.sql if required
-Open customer_behavior_dashboard.pbix in Power BI Desktop to view dashboards
+# 2. Install dependencies
+pip install pandas numpy matplotlib seaborn jupyter
 
-#Features
-Data cleaning and preprocessing
-Exploratory data analysis
-SQL-based data querying
-Interactive Power BI dashboards
-Customer behavior and purchase analysis
+# 3. Run the notebook
+jupyter notebook Customer_Shopping_Behavior_Analysis.ipynb
 
-#Key Insights
-Customer purchasing patterns and trends
-Product preferences and buying frequency
-Insights into customer segments
-Key metrics for retail decision-making
+# 4. Open dashboard
+# Open customer_behavior_dashboard.pbix in Power BI Desktop
 
-#Use Cases
-Data analyst portfolio project
-Retail business analysis
-Customer behavior insights
-Business intelligence reporting
 
-#Future Scope
-Add predictive analytics for customer behavior
-Enhance dashboard interactivity
-Integrate real-time retail data
-Apply machine learning models for recommendations
+Author
 
-#License
-Refer to the LICENSE file for details
-
-#Author
 Bethineedi Deva Harsha
-GitHub: https://github.com/BeHarsha
+- [LinkedIn](https://www.linkedin.com/in/bethineedi-deva-harsha-3933aa2a9)
+- [GitHub](https://github.com/BeHarsha)
+- harsha.fieldmaster@gmail.com
