@@ -22,29 +22,43 @@ Key Insights Uncovered
 Project Structure
 
 Retail_Customer_Shopping_Analysis/
-│── customer_shopping_behavior.csv          ← Raw dataset (3,900 records)
-│── Customer_Shopping_Behavior_Analysis.ipynb  ← Full EDA + visualizations
-│── customer_behavior_sql_queries.sql       ← SQL KPI queries
-│── customer_behavior_dashboard.pbix        ← Power BI dashboard
-│── README.md
+
+│── customer_shopping_behavior.csv          ← Raw dataset (3,900 records) |
+
+│── Customer_Shopping_Behavior_Analysis.ipynb  ← Full EDA + visualizations |
+
+│── customer_behavior_sql_queries.sql       ← SQL KPI queries |
+
+│── customer_behavior_dashboard.pbix        ← Power BI dashboard |
+
+│── README.md |
 
 
 Dataset Overview
 
 Field - Description
 
-Customer ID - Unique identifier 
-Age - Customer age 
-Gender - Male / Female 
-Item Purchased - Product name 
-Category - Clothing, Footwear, Accessories, Outerwear 
-Purchase Amount (USD) - Transaction value 
-Location - US State 
-Season - Spring / Summer / Fall / Winter 
-Subscription Status - Yes / No 
-Payment Method - Card type used 
-Shipping Type - Standard, Express, etc.
-and 7 more
+Customer ID - Unique identifier |
+
+Age - Customer age |
+
+Gender - Male / Female |
+
+Item Purchased - Product name |
+
+Category - Clothing, Footwear, Accessories, Outerwear |
+
+Purchase Amount (USD) - Transaction value |
+
+Location - US State |
+
+Season - Spring / Summer / Fall / Winter |
+
+Subscription Status - Yes / No |
+
+Payment Method - Card type used |
+
+Shipping Type - Standard, Express, etc. |
 
 
 Sample SQL Queries Used
@@ -82,10 +96,13 @@ Tech Stack
 
 Tool - Purpose 
 
-Python (Pandas, NumPy) - Data cleaning & preprocessing , (Matplotlib, Seaborn) - EDA visualizations 
-SQL - Customer segmentation queries 
-Power BI + DAX - Interactive dashboards 
-Jupyter Notebook - Analysis environment 
+Python (Pandas, NumPy) - Data cleaning & preprocessing , (Matplotlib, Seaborn) - EDA visualizations |
+
+SQL - Customer segmentation queries |
+
+Power BI + DAX - Interactive dashboards |
+
+Jupyter Notebook - Analysis environment |
 
 
 How to Run
