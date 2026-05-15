@@ -39,7 +39,7 @@ Retail_Customer_Shopping_Analysis/
 │── README.md |
 
 
-Dataset Overview
+Dataset Overview 
 
 Field - Description
 
@@ -69,7 +69,9 @@ Shipping Type - Standard, Express, etc. |
 Sample SQL Queries Used
 
 sql
+
 -- Average purchase amount by category
+
 SELECT
     category,
     ROUND(AVG(purchase_amount_usd), 2) AS avg_purchase,
@@ -79,6 +81,7 @@ GROUP BY category
 ORDER BY avg_purchase DESC;
 
 -- Top 5 states by total revenue
+
 SELECT
     location,
     SUM(purchase_amount_usd) AS total_revenue,
@@ -89,6 +92,7 @@ ORDER BY total_revenue DESC
 LIMIT 5;
 
 -- Subscription vs non-subscription spend comparison
+
 SELECT
     subscription_status,
     ROUND(AVG(purchase_amount_usd), 2) AS avg_spend,
