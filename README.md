@@ -110,6 +110,13 @@ Power BI + DAX - Interactive dashboards |
 Jupyter Notebook - Analysis environment |
 
 
+Business Impact
+
+Simulated customer segmentation and regional sales intelligence for retail decision-making. |
+
+Improved visibility into customer purchasing patterns and product performance. |
+
+
 How to Run
 
 bash
