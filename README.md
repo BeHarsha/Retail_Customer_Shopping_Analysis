@@ -109,6 +109,24 @@ Winter - $58,607 |
 Summer - $55,777 |
 
 
+Dashboard Preview
+
+Home
+![Home Dashboard](screenshots/Home.png)
+
+Subscription
+![Subscription](screenshots/Subscription.png)
+
+Gender
+![Gender](screenshots/Gender.png)
+
+Category
+![Category](screenshots/Category.png)
+
+Shipping
+![Shipping](screenshots/Shipping.png)
+
+
 Sample SQL Queries Used
 
 sql
