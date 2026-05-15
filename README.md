@@ -131,7 +131,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook Customer_Shopping_Behavior_Analysis.ipynb
 
 # 4. Open dashboard
-# Open customer_behavior_dashboard.pbix in Power BI Desktop
+Open customer_behavior_dashboard.pbix in Power BI Desktop
 
 
 Author
