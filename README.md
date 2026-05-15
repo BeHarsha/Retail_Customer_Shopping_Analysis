@@ -115,16 +115,16 @@ Home
 ![Home Dashboard](Home.png)
 
 Subscription
-![Subscription](screenshots/Subscription.png)
+![Subscription](Subscription.png)
 
 Gender
-![Gender](screenshots/Gender.png)
+![Gender](Gender.png)
 
 Category
-![Category](screenshots/Category.png)
+![Category](Category.png)
 
 Shipping
-![Shipping](screenshots/Shipping.png)
+![Shipping](Shipping.png)
 
 
 Sample SQL Queries Used
