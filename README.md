@@ -5,6 +5,11 @@ Python · SQL · Power BI · DAX
 A retail analytics project examining 3,900 customer transactions across 18 variables to uncover purchasing patterns, top-performing regions, and revenue-driving product categories.
 
 
+Business Problem
+
+A retail business required customer behaviour analysis to identify purchasing trends, high-performing product categories, and regional sales opportunities for business optimization.
+
+
 Project Overview
 
 This project performs end-to-end customer behavior analysis on a retail shopping dataset — from data cleaning and EDA in Python to SQL-based segmentation queries to a Power BI dashboard — providing actionable insights for inventory planning, regional marketing, and customer targeting.
