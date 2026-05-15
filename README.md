@@ -66,6 +66,49 @@ Payment Method - Card type used |
 Shipping Type - Standard, Express, etc. |
 
 
+Key Performance Indicators (KPIs)
+
+KPI - Value |
+
+Revenue KPIs
+
+Total Revenue - $233,081 |
+
+Total Customers - 3,900 |
+
+Avg Purchase Amount - $59.76 |
+
+Max Single Purchase - $100 |
+
+Min Single Purchase - $20 |
+
+Avg Review Rating - 3.75 - 5.00 |
+
+Revenue by Category
+
+Category | Total Revenue | Avg Purchase | Transactions |
+
+Clothing | $104,264 | $60.03 | 1,737 |
+
+Accessories | $74,200 | $59.84 | 1,240 |
+
+Footwear | $36,093 | $60.26 | 599 |
+
+Outerwear | $18,524 | $57.17 | 324 |
+
+Revenue by Season
+
+Season - Total Revenue |
+
+Fall - $60,018 |
+
+Spring - $58,679 |
+
+Winter - $58,607 |
+
+Summer - $55,777 |
+
+
 Sample SQL Queries Used
 
 sql
