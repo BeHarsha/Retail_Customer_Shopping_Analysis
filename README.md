@@ -112,7 +112,7 @@ Summer - $55,777 |
 Dashboard Preview
 
 Home
-![Home Dashboard](screenshots/Home.png)
+![Home Dashboard](Home.png)
 
 Subscription
 ![Subscription](screenshots/Subscription.png)
