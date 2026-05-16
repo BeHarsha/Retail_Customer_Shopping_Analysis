@@ -184,19 +184,29 @@ Improved visibility into customer purchasing patterns and product performance. |
 
 How to Run
 
-bash
-# 1. Clone the repo
+# 1. Clone the Repository
+```bash
 git clone https://github.com/BeHarsha/Retail_Customer_Shopping_Analysis
 cd Retail_Customer_Shopping_Analysis
+```
 
-# 2. Install dependencies
-pip install pandas numpy matplotlib seaborn jupyter
+# 2. Install Python Dependencies
+```bash
+pip install pandas numpy matplotlib seaborn
+```
 
-# 3. Run the notebook
-jupyter notebook Customer_Shopping_Behavior_Analysis.ipynb
+# 3. Run the Python Analysis
+Launch Jupyter Notebook and open `Customer_Shopping_Behavior_Analysis.ipynb` to explore the dataset and run the full analysis:
+```bash
+jupyter notebook
+```
 
-# 4. Open dashboard
-Open customer_behavior_dashboard.pbix in Power BI Desktop
+# 4. Run the SQL Queries
+Open `customer_behavior_sql_queries.sql` in your preferred SQL environment (MySQL Workbench, pgAdmin, DBeaver, or any compatible SQL client).
+Import `customer_shopping_behavior.csv` into your database, then execute the queries to perform data extraction, aggregation, and transformation.
+
+# 5. View the Power BI Dashboard
+Open `customer_behavior_dashboard.pbix` in Power BI Desktop to explore the interactive visualizations covering customer segments, purchase trends, and key retail metrics.
 
 
 Author
