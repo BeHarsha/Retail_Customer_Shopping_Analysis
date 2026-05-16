@@ -1,0 +1,35 @@
+# ==========================================
+# Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.ipynb_checkpoints
+
+# ==========================================
+# Python Performance Caches & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Local Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+lib/
+pip-log.txt
+
+# ==========================================
+# OS-Specific Garbage Files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Local IDE Configurations (VS Code / PyCharm)
+# ==========================================
+.vscode/
+.idea/
