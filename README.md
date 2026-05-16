@@ -1,21 +1,21 @@
-Retail Customer Shopping Analysis
+## Retail Customer Shopping Analysis
 
 Python · SQL · Power BI · DAX
 
 A retail analytics project examining 3,900 customer transactions across 18 variables to uncover purchasing patterns, top-performing regions, and revenue-driving product categories.
 
 
-Business Problem
+## Business Problem
 
 A retail business required customer behaviour analysis to identify purchasing trends, high-performing product categories, and regional sales opportunities for business optimization.
 
 
-Project Overview
+## Project Overview
 
 This project performs end-to-end customer behavior analysis on a retail shopping dataset — from data cleaning and EDA in Python to SQL-based segmentation queries to a Power BI dashboard — providing actionable insights for inventory planning, regional marketing, and customer targeting.
 
 
-Key Insights Uncovered
+## Key Insights Uncovered
 
 - Average purchase amount: $59.77 per transaction across all customers
 - Montana is the highest-performing state by total sales value
@@ -24,9 +24,7 @@ Key Insights Uncovered
 - Male customers account for slightly higher transaction frequency than female customers
 
 
-Project Structure
-
-Retail_Customer_Shopping_Analysis/
+## Project Structure
 
 │── customer_shopping_behavior.csv          ← Raw dataset (3,900 records) |
 
@@ -39,9 +37,9 @@ Retail_Customer_Shopping_Analysis/
 │── README.md |
 
 
-Dataset Overview - customer_shopping_behavior.csv
+## Dataset Overview - customer_shopping_behavior.csv
 
-Field - Description
+### Field - Description
 
 Customer ID - Unique identifier |
 
@@ -66,11 +64,11 @@ Payment Method - Card type used |
 Shipping Type - Standard, Express, etc. |
 
 
-Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
-KPI - Value |
+### KPI - Value |
 
-Revenue KPIs
+#### Revenue KPIs
 
 Total Revenue - $233,081 |
 
@@ -84,7 +82,7 @@ Min Single Purchase - $20 |
 
 Avg Review Rating - 3.75 - 5.00 |
 
-Revenue by Category
+#### Revenue by Category
 
 Category | Total Revenue | Avg Purchase | Transactions |
 
@@ -96,7 +94,7 @@ Footwear | $36,093 | $60.26 | 599 |
 
 Outerwear | $18,524 | $57.17 | 324 |
 
-Revenue by Season
+#### Revenue by Season
 
 Season - Total Revenue |
 
@@ -109,7 +107,7 @@ Winter - $58,607 |
 Summer - $55,777 |
 
 
-Dashboard Preview
+## Dashboard Preview
 
 Home
 ![Home Dashboard](Home.png)
@@ -127,7 +125,7 @@ Shipping
 ![Shipping](Shipping.png)
 
 
-Sample SQL Queries Used
+## Sample SQL Queries Used
 
 sql
 
@@ -162,9 +160,9 @@ FROM retail_customers
 GROUP BY subscription_status;
 
 
-Tech Stack
+## Tech Stack
 
-Tool - Purpose 
+### Tool - Purpose 
 
 Python (Pandas, NumPy) - Data cleaning & preprocessing , (Matplotlib, Seaborn) - EDA visualizations |
 
@@ -175,42 +173,42 @@ Power BI + DAX - Interactive dashboards |
 Jupyter Notebook - Analysis environment |
 
 
-Business Impact
+## Business Impact
 
 Simulated customer segmentation and regional sales intelligence for retail decision-making. |
 
 Improved visibility into customer purchasing patterns and product performance. |
 
 
-How to Run
+## How to Run
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/BeHarsha/Retail_Customer_Shopping_Analysis
 cd Retail_Customer_Shopping_Analysis
 ```
 
-# 2. Install Python Dependencies
+### 2. Install Python Dependencies
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
 
-# 3. Run the Python Analysis
+### 3. Run the Python Analysis
 Launch Jupyter Notebook and open `Customer_Shopping_Behavior_Analysis.ipynb` to explore the dataset and run the full analysis:
 ```bash
 Customer_Shopping_Behavior_Analysis.ipynb
 ```
 
-# 4. Run the SQL Queries
+### 4. Run the SQL Queries
 Open `customer_behavior_sql_queries.sql` in your preferred SQL environment (MySQL Workbench, pgAdmin, DBeaver, or any compatible SQL client).
 
 Import `customer_shopping_behavior.csv` into your database, then execute the queries to perform data extraction, aggregation, and transformation.
 
-# 5. View the Power BI Dashboard
+### 5. View the Power BI Dashboard
 Open `customer_behavior_dashboard.pbix` in Power BI Desktop to explore the interactive visualizations covering customer segments, purchase trends, and key retail metrics.
 
 
-Author
+## Author
 
 Bethineedi Deva Harsha
 - [LinkedIn](https://www.linkedin.com/in/bethineedi-deva-harsha-3933aa2a9)
