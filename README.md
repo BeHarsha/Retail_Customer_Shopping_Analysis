@@ -1,3 +1,22 @@
+![Domain](https://img.shields.io/badge/Domain-Retail%20Analytics-darkgreen)
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
+![Python](https://img.shields.io/badge/Python-Data%20Analytics-yellow)
+![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811)
+![Excel](https://img.shields.io/badge/Excel-Data%20Analysis-217346)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Manipulation-150458)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computation-013243)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
+![Statistics](https://img.shields.io/badge/Statistics-Consumer%20Insights-purple)
+![Customer Analytics](https://img.shields.io/badge/Customer-Behavior%20Analysis-success)
+![Retail BI](https://img.shields.io/badge/Retail-Business%20Intelligence-blueviolet)
+![Data Visualization](https://img.shields.io/badge/Data-Visualization-critical)
+![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-brightgreen)
+![Business Insights](https://img.shields.io/badge/Business-Insights-important)
+![Sales Analysis](https://img.shields.io/badge/Sales-Performance%20Analysis-orange)
+![Project Status](https://img.shields.io/badge/Project-Completed-success)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
+
 ## Retail Customer Shopping Analysis
 
 Python · SQL · Power BI · DAX
