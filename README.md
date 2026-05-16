@@ -43,6 +43,15 @@ This project performs end-to-end customer behavior analysis on a retail shopping
 - Male customers account for slightly higher transaction frequency than female customers
 
 
+## Installation & Setup
+
+To install all required dependencies, run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+
 ## Project Structure
 
 │── customer_shopping_behavior.csv          ← Raw dataset (3,900 records) |
