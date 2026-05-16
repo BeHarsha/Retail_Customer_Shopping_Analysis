@@ -198,11 +198,12 @@ pip install pandas numpy matplotlib seaborn
 # 3. Run the Python Analysis
 Launch Jupyter Notebook and open `Customer_Shopping_Behavior_Analysis.ipynb` to explore the dataset and run the full analysis:
 ```bash
-jupyter notebook
+Customer_Shopping_Behavior_Analysis.ipynb
 ```
 
 # 4. Run the SQL Queries
 Open `customer_behavior_sql_queries.sql` in your preferred SQL environment (MySQL Workbench, pgAdmin, DBeaver, or any compatible SQL client).
+
 Import `customer_shopping_behavior.csv` into your database, then execute the queries to perform data extraction, aggregation, and transformation.
 
 # 5. View the Power BI Dashboard
