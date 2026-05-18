@@ -21,7 +21,7 @@
 
 Python · SQL · Power BI · DAX
 
-A retail analytics project examining 3,900 customer transactions across 18 variables to uncover purchasing patterns, top-performing regions, and revenue-driving product categories.
+A retail analytics project examining 3,900 customer transactions across 14 behavioural variables to uncover purchasing patterns, top-performing regions, and revenue-driving product categories.
 
 
 ## Business Problem
@@ -36,7 +36,7 @@ This project performs end-to-end customer behavior analysis on a retail shopping
 
 ## Key Insights Uncovered
 
-- Average purchase amount: $59.77 per transaction across all customers
+- Average purchase amount: $59.76 per transaction across all customers
 - Montana is the highest-performing state by total sales value
 - Clothing is the #1 revenue category — over 1,700 items purchased
 - Subscription customers show higher average order values than non-subscribers
@@ -108,7 +108,7 @@ Max Single Purchase - $100 |
 
 Min Single Purchase - $20 |
 
-Avg Review Rating - 3.75 - 5.00 |
+Avg Review Rating - 3.75 |
 
 #### Revenue by Category
 
